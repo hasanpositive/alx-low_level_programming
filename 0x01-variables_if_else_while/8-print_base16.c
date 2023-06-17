@@ -1,12 +1,15 @@
 #include <stdio.h>
+
 /**
-* main - prints the numbers between 0 to 9 and letters between a to f.
-*
-* Return Always 0 (Success)
-*/
+ * main - Entry point
+ * description: print numbers between 0 and 9 and letters between a and f.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int i;
+
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);

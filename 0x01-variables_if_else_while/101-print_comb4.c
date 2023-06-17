@@ -1,8 +1,11 @@
 #include <stdio.h>
+
 /**
-* main - prints all possible of different combinations of three digits
-* Return Always 0 (Success)
-*/
+ * main - Entry point
+ * description: print all possible different combination of three digits
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n, m, l;
