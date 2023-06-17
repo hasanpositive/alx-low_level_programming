@@ -8,28 +8,29 @@
  */
 int main(void)
 {
-	int n, m, l;
+	int digit1 = 0, digit2;
 
-	for (n = 48; n <= 56; n++)
+	while (digit1 <= 9)
 	{
-		for (m = 49; m <= 57; m++)
+		digit2 = 0;
+		while (digit2 <= 9)
 		{
-			for (l = 50; l < 58; l++)
+			if (digit1 != digit2 && digit1 < digit2)
 			{
-				if (m > n)
+				putchar(digit1 + 48);
+				putchar(digit2 + 48);
+
+				if (digit1 + digit2 != 17)
 				{
-					putchar(n);
-					putchar(m);
-					putchar(l);
-					if (n != 55 || m != 56)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(',');
+					putchar(' ');
 				}
 			}
+			digit2++;
 		}
+		digit1++;
 	}
 	putchar('\n');
+
 	return (0);
 }
