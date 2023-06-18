@@ -2,17 +2,16 @@
 
 /**
  * main - Entry point
- * description: program that prints all possible combinations of two two-digit numbers.
- *
- * Return: Always 0 (Success)
+ * description: print all possible combition of two digits
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 {
 	int i, j;
 
-	for (i = 0; i <= 99; i++)
+	for (i = 0; i < 100; i++)
 	{
-		for (j = 0; j <= 99; j++)
+		for (j = 0; i < 100; i++)
 		{
 			if (i < j)
 			{
