@@ -2,31 +2,34 @@
 
 /**
  * main - Entry point
- * description: print all possible combition of two digits
- * Return: Always 0 (Sucess)
+ * description: Print all possible combinations of two digit numbers
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i, j;
+	int p = 0, q;
 
-	for (i = 0; i <= 98; i++)
+	while (p <= 99)
 	{
-		for (j = 0; i <= 99; i++)
+		q = p;
+		while (q <= 99)
 		{
-			if (i < j)
+			if (q != p)
 			{
-				putchar((i / 10) + 48);
-				putchar((i % 10) + 48);
+				putchar((p / 10) + 48);
+				putchar((p % 10) + 48);
 				putchar(' ');
-				putchar((j / 10) + 48);
-				putchar((j % 10) + 48);
-				if (i != 98 || j != 99)
+				putchar((q / 10) + 48);
+				putchar((q % 10) + 48);
+				if (p != 98 || q != 99)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
+			q++;
 		}
+		p++;
 	}
 	putchar('\n');
 	return (0);
