@@ -1,12 +1,12 @@
 #include <stdio.h>
+
 /**
- * main - Prints the sum of fib less than 4000000
+ * main - prints sum of fib less than
  * Return: Nothing!
  */
-
 int main(void)
 {
-	int i 0;
+	int i = 0;
 	long j = 1, k = 2, sum = k;
 
 	while (k + j < 4000000)
@@ -17,6 +17,6 @@ int main(void)
 		j = k - j;
 		++i;
 	}
-	printf("$ld\n", sum);
-       return (0);
-}       
+	printf("%ld\n", sum);
+	return (0);
+}
