@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - tests func for pos(+) or neg(-)
  * Return: 0
