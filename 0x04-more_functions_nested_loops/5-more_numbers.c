@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * more_members - Prints more numbers
- * Return: 10 times of the numbers from 0 10 14
+ * more_numbers - Print 10 times to the number from 0 to 14
+ * Return: 10 times of the number
  */
-void more_members(void)
+void more_numbers(void)
 {
 	int x, y;
 
@@ -14,10 +14,11 @@ void more_members(void)
 	{
 	if (y > 9)
 	{
-	_putchar((y / 10) + '0');
+		_putchar((y / 10) + '0');
 	}
 	_putchar((y % 10) + '0');
 	}
 	_putchar('\n');
 	}
 }
+
