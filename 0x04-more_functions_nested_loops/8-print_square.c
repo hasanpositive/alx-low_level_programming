@@ -2,9 +2,9 @@
 
 /**
  * print_square - Print a square followed by a new line
- * Return: empty
+ * Return: emptiy
  */
-void print_square(void)
+void print_square(int size)
 {
 	int a, b;
 
