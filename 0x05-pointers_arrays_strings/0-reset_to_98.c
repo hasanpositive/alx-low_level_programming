@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * 0-reset_to_98 - Takes a pointer to an inter and updates
+ * reset_to_98 - Takes a pointer to an inter and updates
  * the value it points to to 98
  * @n: input pointer
  * Return:n
