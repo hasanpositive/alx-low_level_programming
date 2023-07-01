@@ -24,8 +24,7 @@ void rev_string(char *n)
 }
 
 /**
- * infinite_add - sum two numbers together
- * description: a function that adds two numbers.
+ * infinite_add - adds two numbers. A function that adds two numbers.
  * @n1: text representation of 1st number to add
  * @n2: text representation of 2ns number to add
  * @r: printer to buffer
